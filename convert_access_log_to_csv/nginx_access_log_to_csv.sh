@@ -13,7 +13,7 @@ INPUT_FILE="$1"
 OUTPUT_FILE="$2"
 
 if [ ! -e "$INPUT_FILE" ]; then
-    echo "Error: \"$INPUT_FILE\" do not exists."
+    echo "Error: \"$INPUT_FILE\" doesn't exists."
     exit
 fi
 
